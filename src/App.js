@@ -4,6 +4,7 @@ import TextCounter from './components/TextCounter/TextCounter';
 import SelectAndShow from './components/SelectAndShow/SelectAndShow';
 import MyForm from './components/MyForm/MyForm';
 import MyForm2 from './components/MyForm2/MyForm2';
+import DefaultValue from './components/DefaultValue/DefaultValue';
 
 class App extends Component {
 
@@ -17,6 +18,8 @@ class App extends Component {
         <MyForm />
         <hr />
         <MyForm2 />
+        <hr />
+        <DefaultValue />
       </div>
     );
   };
