@@ -5,6 +5,7 @@ import SelectAndShow from './components/SelectAndShow/SelectAndShow';
 import MyForm from './components/MyForm/MyForm';
 import MyForm2 from './components/MyForm2/MyForm2';
 import DefaultValue from './components/DefaultValue/DefaultValue';
+import Request from './components/Request/Request';
 
 class App extends Component {
 
@@ -20,6 +21,8 @@ class App extends Component {
         <MyForm2 />
         <hr />
         <DefaultValue />
+        <hr />
+        <Request />
       </div>
     );
   };
