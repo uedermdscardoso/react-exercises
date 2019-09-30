@@ -1,11 +1,16 @@
 import React,{ Component } from 'react';
 import './App.css';
+import TextCounter from './components/textCounter/TextCounter';
 import SelectAndShow from './components/selectAndShow/SelectAndShow';
 
 class App extends Component {
   render(){
     return(
-      <SelectAndShow></SelectAndShow>
+      <div>
+        <TextCounter limit={10}></TextCounter>
+        <hr />
+        <SelectAndShow></SelectAndShow>
+      </div>
     );
   };
 }
