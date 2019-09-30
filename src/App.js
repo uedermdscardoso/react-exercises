@@ -1,8 +1,9 @@
 import React,{ Component } from 'react';
 import './App.css';
-import TextCounter from './components/textCounter/TextCounter';
-import SelectAndShow from './components/selectAndShow/SelectAndShow';
-import MyForm from './components/myForm/MyForm';
+import TextCounter from './components/TextCounter/TextCounter';
+import SelectAndShow from './components/SelectAndShow/SelectAndShow';
+import MyForm from './components/MyForm/MyForm';
+import MyForm2 from './components/MyForm2/MyForm2';
 
 class App extends Component {
 
@@ -14,6 +15,8 @@ class App extends Component {
         <SelectAndShow />
         <hr />
         <MyForm />
+        <hr />
+        <MyForm2 />
       </div>
     );
   };
